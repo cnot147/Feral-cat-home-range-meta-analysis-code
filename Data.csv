@@ -1,0 +1,27 @@
+Metadata,
+,
+Study,Reference for study
+Country,Country where the study was carried out
+Region,"Region in the world where the study was carried out (e.g. Australia, North America..)"
+Sex,Male or Female or not specified
+Season,Season that the home range was calculated for
+HomeRangeEstimator,Method of calculating the home range (e.g. MCP -minimum convex polygons...)
+Value,Home range value
+SE,standard error of the home range value
+SampleSize,The number of individuals that contributed to that average home range
+DataCollection,How the data was collected e.g. GPS or VHF
+Habitat,Primary landuse of the area that the cats home range was
+Land,If the study was carried out on an island or not
+Climate,Climate type where the study was carried out
+CompetitorINDEX,If competitors were present (1) or not (0)
+10Developed,The proportion of developed land in the 10km buffer area
+10Forest - continuous,The proportion of continuous forest land in the 10km buffer area
+10Forest - diffuse,The proportion of diffuse forest land in the 10km buffer area
+10Forest - sparse,The proportion of sparse forest land in the 10km buffer area
+10Shrub - continuous,The proportion of continuous shrub land in the 10km buffer area
+10Shrubs - diffuse,The proportion of diffuse shrub land in the 10km buffer area
+10Shrub - sparse,The proportion of sparse shrub land in the 10km buffer area
+10Grassland,The proportion of grassland in the 10km buffer area
+10Pond/River/Lake,"The proportion of pond, river or lake  in the 10km buffer area"
+10Gravel/Rock/Sand,The proportion of gravel rock or sand in the 10km buffer area
+10Crops,The proportion of cropland in the 10km buffer area
