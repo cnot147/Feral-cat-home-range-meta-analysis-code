@@ -1,27 +1,144 @@
-Metadata,
-,
-Study,Reference for study
-Country,Country where the study was carried out
-Region,"Region in the world where the study was carried out (e.g. Australia, North America..)"
-Sex,Male or Female or not specified
-Season,Season that the home range was calculated for
-HomeRangeEstimator,Method of calculating the home range (e.g. MCP -minimum convex polygons...)
-Value,Home range value
-SE,standard error of the home range value
-SampleSize,The number of individuals that contributed to that average home range
-DataCollection,How the data was collected e.g. GPS or VHF
-Habitat,Primary landuse of the area that the cats home range was
-Land,If the study was carried out on an island or not
-Climate,Climate type where the study was carried out
-CompetitorINDEX,If competitors were present (1) or not (0)
-10Developed,The proportion of developed land in the 10km buffer area
-10Forest - continuous,The proportion of continuous forest land in the 10km buffer area
-10Forest - diffuse,The proportion of diffuse forest land in the 10km buffer area
-10Forest - sparse,The proportion of sparse forest land in the 10km buffer area
-10Shrub - continuous,The proportion of continuous shrub land in the 10km buffer area
-10Shrubs - diffuse,The proportion of diffuse shrub land in the 10km buffer area
-10Shrub - sparse,The proportion of sparse shrub land in the 10km buffer area
-10Grassland,The proportion of grassland in the 10km buffer area
-10Pond/River/Lake,"The proportion of pond, river or lake  in the 10km buffer area"
-10Gravel/Rock/Sand,The proportion of gravel rock or sand in the 10km buffer area
-10Crops,The proportion of cropland in the 10km buffer area
+Study,Country,Region,Sex,Season,HomeRangeEstimator,Value,SE,SampleSize,DataCollection,Habitat,Land,Climate,CompetitorINDEX,10Developed,10Forest - continuous,10Forest - diffuse,10Forest - sparse,10Shrub - continuous,10Shrubs - diffuse,10Shrub - sparse,10Grassland,10Pond/River/Lake,10Gravel/Rock/Sand,10Crops
+Strang 2019,New Zealand,New Zealand,Male,,100% MCP ,428,154,5,VHF,Agricultural - sheep and cattle,Island,Temporate,0,0,0.346217559,0.557150745,0.090557703,0,0,0.006073992,0,0,0,0
+Strang 2019,New Zealand,New Zealand,Female,,100% MCP ,203,75,3,VHF,Agricultural - sheep and cattle,Island,Temporate,0,0,0.346217559,0.557150745,0.090557703,0,0,0.006073992,0,0,0,0
+Normand et al. 2019,USA,North America,,Summer,95% MCP,9.03,2.83,18,VHF,Urban,Not,Temporate,1,0.174891405,0.407320373,0.355978067,0.025920387,0,0,0,0.001103753,0.003738517,0,0.031047497
+Normand et al. 2019,USA,North America,,Winter,95% MCP,11.09,2.14,18,VHF,Urban,Not,Temporate,1,0.174891405,0.407320373,0.355978067,0.025920387,0,0,0,0.001103753,0.003738517,0,0.031047497
+Normand et al. 2019,USA,North America,Male,,95% MCP,22.14,5.74,10,VHF,Urban,Not,Temporate,1,0.174891405,0.407320373,0.355978067,0.025920387,0,0,0,0.001103753,0.003738517,0,0.031047497
+Normand et al. 2019,USA,North America,Female,,95% MCP,9.6,3.09,8,VHF,Urban,Not,Temporate,1,0.174891405,0.407320373,0.355978067,0.025920387,0,0,0,0.001103753,0.003738517,0,0.031047497
+Hansen et al. 2018,New Zealand,New Zealand,Female,,95% MCP,384.3,,1,GPS,Agricultural - sheep and cattle,Not,Temporate,1,0.052843427,0.129357459,0.296750369,0.171159527,0.114955687,0.208530281,0.02640325,0,0,0,0
+Molsher et al. 2017,Australia,Australia,,,95% MCP,255.14,120,43,VHF,Scrubland and Grassland,Not,Temporate,1,0.001496931,0.256124944,0.332418542,0.03507809,0.075719774,0.245671374,0.029364802,0.024125543,0,0,0
+Molsher et al. 2017,Australia,Australia,,Summer,95% MCP,232,96,11,VHF,Scrubland and Grassland,Not,Temporate,1,0.001496931,0.256124944,0.332418542,0.03507809,0.075719774,0.245671374,0.029364802,0.024125543,0,0,0
+Molsher et al. 2017,Australia,Australia,,Winter,95% MCP,263,104,32,VHF,Scrubland and Grassland,Not,Temporate,1,0.001496931,0.256124944,0.332418542,0.03507809,0.075719774,0.245671374,0.029364802,0.024125543,0,0,0
+Leo et al. 2016,Northern Mariana Islands.,Asia,Male,,100% MCP ,91.7,51.3,2,GPS,Forest,Island,Tropical,0,0.029733587,0.335156993,0.046265461,0.000356803,0.365723121,0.128805899,0.076950523,0.017007612,0,0,0
+Leo et al. 2016,Northern Mariana Islands.,Asia,Female,,100% MCP ,22.3,4.7,3,GPS,Forest,Island,Tropical,0,0.029733587,0.335156993,0.046265461,0.000356803,0.365723121,0.128805899,0.076950523,0.017007612,0,0,0
+Bridges et al. 2015,USA,North America,Male,Winter,100% MCP ,288.24,32.7,6,GPS,Scrub,Island,Mediterranean,1,0.002137806,0,0,0,0,0.997862194,0,0,0,0,0
+Bridges et al. 2015,USA,North America,Female,Winter,100% MCP ,179.42,59.9,5,GPS,Scrub,Island,Mediterranean,1,0.002137806,0,0,0,0,0.997862194,0,0,0,0,0
+McGregor et al. 2015,Australia,Australia,Male,,95% KDE,855,156,25,GPS,Grassland,Not,Steppe,1,0,0,1,0,0,0,0,0,0,0,0
+McGregor et al. 2015,Australia,Australia,Female,,95% KDE,397,275,7,GPS,Grassland,Not,Steppe,1,0,0,1,0,0,0,0,0,0,0,0
+Cruz et al. 2014,New Zealand,New Zealand,Male,,100% MCP ,1428.5,489.5,12,GPS,Grassland,Not,Temporate,1,0,0,0.042031831,0.058227582,0,0.441807474,0,0.406751735,0.051181378,0,0
+Cruz et al. 2014,New Zealand,New Zealand,Female,,100% MCP ,210.3,55.1,4,GPS,Grassland,Not,Temporate,1,0,0,0.042031831,0.058227582,0,0.441807474,0,0.406751735,0.051181378,0,0
+Cruz et al. 2014,New Zealand,New Zealand,Male,Summer,100% MCP ,2092.6,1224.7,5,GPS,Grassland,Not,Temporate,1,0,0,0.042031831,0.058227582,0,0.441807474,0,0.406751735,0.051181378,0,0
+Cruz et al. 2014,New Zealand,New Zealand,Female,Summer,100% MCP ,190,72.5,3,GPS,Grassland,Not,Temporate,1,0,0,0.042031831,0.058227582,0,0.441807474,0,0.406751735,0.051181378,0,0
+Cruz et al. 2014,New Zealand,New Zealand,Male,Winter,100% MCP ,1126.6,470,11,GPS,Grassland,Not,Temporate,1,0,0,0.042031831,0.058227582,0,0.441807474,0,0.406751735,0.051181378,0,0
+Cruz et al. 2014,New Zealand,New Zealand,Female,Winter,100% MCP ,271,,1,GPS,Grassland,Not,Temporate,1,0,0,0.042031831,0.058227582,0,0.441807474,0,0.406751735,0.051181378,0,0
+Johnston et al. 2014,Australia,Australia,,Winter,95% MCP,334.8933333,,17,GPS,Scrub,Not,Arid,1,0,0,0,0,0,1,0,0,0,0,0
+Johnston et al. 2014,Australia,Australia,Male,Winter,95% MCP,510,84.68,10,GPS,Scrub,Not,Arid,1,0,0,0,0,0,1,0,0,0,0,0
+Johnston et al. 2014,Australia,Australia,Female,Winter,95% MCP,410,119.2,7,GPS,Scrub,Not,Arid,1,0,0,0,0,0,1,0,0,0,0,0
+Gerht et al. 2013,USA,North America,Male,,95% MCP,73.8,19.5,14,VHF,Urban,Not,Continental,1,0.625775838,0.07977285,0.083127302,0.014222617,0.005601483,0.015220583,0.001229751,0.002375802,0.01301862,0,0.159655155
+Gerht et al. 2013,USA,North America,Female,,95% MCP,30.2,7.3,12,VHF,Urban,Not,Continental,1,0.625775838,0.07977285,0.083127302,0.014222617,0.005601483,0.015220583,0.001229751,0.002375802,0.01301862,0,0.159655155
+Johnston et al. 2013,Australia,Australia,,Winter,95% MCP,99.5,19.29,6,GPS,Scrub,Not,Semi-arid,1,0,0,0,0,0,1,0,0,0,0,0
+Johnston et al. 2013,Australia,Australia,Male,Winter,95% MCP,110.3,19.15,5,GPS,Scrub,Not,Semi-arid,1,0,0,0,0,0,1,0,0,0,0,0
+Johnston et al. 2013,Australia,Australia,Female,Winter,95% MCP,43,,1,GPS,Scrub,Not,Semi-arid,1,0,0,0,0,0,1,0,0,0,0,0
+Recio & Seddon 2013,New Zealand,New Zealand,,,100% MCP ,554.1,221.8,34,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,,Winter,100% MCP ,437.1,154.3,9,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Male,Winter,100% MCP ,489.7,210.1,5,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Female,Winter,100% MCP ,371.3,59.2,4,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,,Summer,100% MCP ,742.7,267.6,7,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Male,Summer,100% MCP ,1209.1,260.7,4,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Female,Summer,100% MCP ,120.8,7.3,3,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,,Summer,100% MCP ,469.1,146.7,7,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Male,Summer,100% MCP ,877.7,231.5,4,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Female,Summer,100% MCP ,305,76.9,3,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,,Winter,100% MCP ,581.4,257.3,11,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Male,Winter,100% MCP ,245.7,67.5,6,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Recio & Seddon 2013,New Zealand,New Zealand,Female,Winter,100% MCP ,821.2,316.9,5,GPS,Grassland,Not,Temporate,1,0,0,0,0.010600707,0.005093433,0.174991246,0.241301372,0.186642473,0.070353039,0.311017732,0
+Martin et al. 2013,sub-Antarctic islands,Other,Male,Summer,95% KDE,583,141.4,3,GPS,,Island,Sub-antarctic,0,0,,,,,,,,,,
+Moon et al. 2013,South Korea,Asia,Male,,100% MCP ,145.1,103.6,3,GPS,,Not,Temporate,1,0,,,,,,,,,,
+Moon et al. 2013,South Korea,Asia,Female,,100% MCP ,57.6,3.65,2,GPS,,Not,Temporate,1,0,,,,,,,,,,
+Bengsen et al. 2012a,Australia,Australia,,,100% MCP ,679,77.8,,GPS,,Island,Mediterranean,0,0.009724029,0.574607957,0.239265904,0,0.048962542,0.127439567,0,0,0,0,0
+Bengsen et al. 2012a,Australia,Australia,Male,,100% MCP ,698,104.8,,GPS,,Island,Mediterranean,0,0.009724029,0.574607957,0.239265904,0,0.048962542,0.127439567,0,0,0,0,0
+Bengsen et al. 2012a,Australia,Australia,Female,,100% MCP ,593,131.3,,GPS,,Island,Mediterranean,0,0.009724029,0.574607957,0.239265904,0,0.048962542,0.127439567,0,0,0,0,0
+Bengsen et al. 2012b,Australia,Australia,,,100% MCP ,839,282.3,6,GPS,Forest,Island,Mediterranean,0,0.002471953,0.416048678,0.570374596,0.00041833,0.009241301,0.001445142,0,0,0,0,0
+Bengsen et al. 2012b,Australia,Australia,Male,,100% MCP ,949,324.9,5,GPS,Forest,Island,Mediterranean,0,0.002471953,0.416048678,0.570374596,0.00041833,0.009241301,0.001445142,0,0,0,0,0
+Bengsen et al. 2012b,Australia,Australia,Female,,100% MCP ,287,,1,GPS,Forest,Island,Mediterranean,0,0.002471953,0.416048678,0.570374596,0.00041833,0.009241301,0.001445142,0,0,0,0,0
+Johnston et al. 2012a,Australia,Australia,Male,Winter,95% MCP,711,92.6,5,GPS,Scrub,Not,Semi-arid,1,0,0,0,0,0.173272212,0.725591316,0.101136472,0,0,0,0
+Johnston et al. 2012b,Australia,Australia,,Winter,95% MCP,679,,7,GPS,Scrub,Not,Temporate,1,0,,,,,,,,,,
+Johnston et al. 2012b,Australia,Australia,Male,Winter,95% MCP,744,140.8,6,GPS,Scrub,Not,Temporate,1,0,,,,,,,,,,
+Johnston et al. 2012b,Australia,Australia,Female,Winter,95% MCP,294,,1,GPS,Scrub,Not,Temporate,1,0,,,,,,,,,,
+Buckmaster 2011,Australia,Australia,,,100% MCP ,280,89,8,Both,Forest,Not,Temporate,1,0.001190798,0.931059991,0.064573748,0.00308525,0,0,0,9.02E-05,0,0,0
+Buckmaster 2011,Australia,Australia,Male,,100% MCP ,455,126,4,Both,Forest,Not,Temporate,1,0.001190798,0.931059991,0.064573748,0.00308525,0,0,0,9.02E-05,0,0,0
+Buckmaster 2011,Australia,Australia,Female,,100% MCP ,105,28,4,Both,Forest,Not,Temporate,1,0.001190798,0.931059991,0.064573748,0.00308525,0,0,0,9.02E-05,0,0,0
+Horn et al. 2011,USA,North America,Male,,95% MCP,157.01,89.44,6,VHF,Crops,Not,Continental,1,0.450722647,0.009319207,0.010986855,0,0,0.000196194,0.001046367,0,0,0,0.527728729
+Horn et al. 2011,USA,North America,Female,,95% MCP,56.59,21.34,10,VHF,Crops,Not,Continental,1,0.450722647,0.009319207,0.010986855,0,0,0.000196194,0.001046367,0,0,0,0.527728729
+Luna-Mendoza et al. 2011,Mexico,North America,Male,,95% KDE,510.4,353.8,5,VHF,Grassland,Island,Desert,0,0.000476644,0.002753946,0.00863256,0,0.003972037,0.010115454,0.599300922,0.31469124,0,0.060057197,0
+Luna-Mendoza et al. 2011,Mexico,North America,Female,,95% KDE,226.5,118.1,2,VHF,Grassland,Island,Desert,0,0.000476644,0.002753946,0.00863256,0,0.003972037,0.010115454,0.599300922,0.31469124,0,0.060057197,0
+Hilmer 2010,Australia,Australia,Male,Winter,95% MCP,1070,,11,GPS,Scrub,Island,Semi-arid,0,0,0,0,0,0.984815087,0.011633603,0.00355131,0,0,0,0
+Hilmer 2010,Australia,Australia,Female,Winter,95% MCP,710,,4,GPS,Scrub,Island,Semi-arid,0,0,0,0,0,0.984815087,0.011633603,0.00355131,0,0,0,0
+Recio et al. 2010,New Zealand,New Zealand,,Winter,100% MCP ,1004.8,369.6,6,GPS,Grassland,Not,Temporate,1,0,0.072125624,0.045138116,0,0.011220954,0.327314918,0.224419085,0.084141263,0,0.235640039,0
+Recio et al. 2010,New Zealand,New Zealand,Male,Winter,100% MCP ,884.4,428,5,GPS,Grassland,Not,Temporate,1,0,0.072125624,0.045138116,0,0.011220954,0.327314918,0.224419085,0.084141263,0,0.235640039,0
+Recio et al. 2010,New Zealand,New Zealand,Female,Winter,100% MCP ,1606.9,,1,GPS,Grassland,Not,Temporate,1,0,0.072125624,0.045138116,0,0.011220954,0.327314918,0.224419085,0.084141263,0,0.235640039,0
+Guttilla & Stapp 2010,USA,North America,Male,,95% MCP,280,100,4,VHF,Scrub,Island,Mediterranean,1,0.005278406,0,0,0,0.158907806,0.339484859,0.013652419,0,0,0,0
+Guttilla & Stapp 2010,USA,North America,Female,,95% MCP,80,20,6,VHF,Scrub,Island,Mediterranean,1,0.005278406,0,0,0,0.158907806,0.339484859,0.013652419,0,0,0,0
+Guttilla & Stapp 2010,USA,North America,Male,,95% MCP,370,120,5,VHF,Scrub,Island,Mediterranean,1,0.005278406,0,0,0,0.158907806,0.339484859,0.013652419,0,0,0,0
+Guttilla & Stapp 2010,USA,North America,Female,,95% MCP,170,60,7,VHF,Scrub,Island,Mediterranean,1,0.005278406,0,0,0,0.158907806,0.339484859,0.013652419,0,0,0,0
+Schmidt et al. 2010,USA,North America,,,95% MCP,14.7,,13,VHF,Urban,Not,Sub-tropical,1,0.025832249,0.336136587,0.634889404,0.00314176,0,0,0,0,0,0,0
+Moseby et al. 2009,Australia,Australia,,Winter,95% MCP,1741,514,10,GPS,Scrub,Not,Arid,1,0,0,0,0,0,0.605017898,0.394982102,0,0,0,0
+Moseby et al. 2009,Australia,Australia,Male,Winter,95% MCP,3232,1764.6,7,GPS,Scrub,Not,Arid,1,0,0,0,0,0,0.605017898,0.394982102,0,0,0,0
+Moseby et al. 2009,Australia,Australia,Female,Winter,95% MCP,2078,,3,GPS,Scrub,Not,Arid,1,0,0,0,0,0,0.605017898,0.394982102,0,0,0,0
+Robley et al. 2008,Australia,Australia,Female,Summer,100% KDE,800,,1,GPS,Forest,Not,Temporate,1,0.032219525,0.770543214,0.192271794,0.004965466,0,0,0,0,0,0,0
+Robley et al. 2008,Australia,Australia,Male,Summer,100% KDE,1750,872.1,6,GPS,Forest,Not,Temporate,1,0.032219525,0.770543214,0.192271794,0.004965466,0,0,0,0,0,0,0
+Goltz et al. 2008,USA,North America,Male,,95% KDE,1418,193.1,4,VHF,Forest,Island,Subalpine,1,0.002228164,0,0.061688312,0.143334607,0.018239114,0.302902979,0.350903998,0,0,0.120702827,0
+Goltz et al. 2008,USA,North America,Female,,95% KDE,772,82,3,VHF,Forest,Island,Subalpine,1,0.002228164,0,0.061688312,0.143334607,0.018239114,0.302902979,0.350903998,0,0,0.120702827,0
+Gillies et al. 2007,New Zealand,New Zealand,Male,,100% MCP ,506,109,14,VHF,Forest,Not,Temporate,1,0,0.530825832,0.347692528,0.120731533,0.000750107,0,0,0,0,0,0
+Gillies et al. 2007,New Zealand,New Zealand,Female,,100% MCP ,110,82,7,VHF,Forest,Not,Temporate,1,0,0.530825832,0.347692528,0.120731533,0.000750107,0,0,0,0,0,0
+Molsher et al. 2005,Australia,Australia,Male,Winter,100% MCP ,423,61.25,11,VHF,Scrubland and Grassland,Not,Temporate,1,0.000527479,0.325956998,0.339269567,0.035315985,0.077765498,0.175374259,0.018260826,0.024766402,0.002762986,0,0
+Molsher et al. 2005,Australia,Australia,Female,Winter,100% MCP ,238,51,4,VHF,Scrubland and Grassland,Not,Temporate,1,0.000527479,0.325956998,0.339269567,0.035315985,0.077765498,0.175374259,0.018260826,0.024766402,0.002762986,0,0
+Molsher et al. 2005,Australia,Australia,,Winter,100% MCP ,374,,15,VHF,Scrubland and Grassland,Not,Temporate,1,0.000527479,0.325956998,0.339269567,0.035315985,0.077765498,0.175374259,0.018260826,0.024766402,0.002762986,0,0
+Molsher et al. 2005,Australia,Australia,Male,Winter,100% MCP ,423,61.25,11,VHF,Scrubland and Grassland,Not,Temporate,1,0.000527479,0.325956998,0.339269567,0.035315985,0.077765498,0.175374259,0.018260826,0.024766402,0.002762986,0,0
+Molsher et al. 2005,Australia,Australia,Female,Winter,100% MCP ,238,51,4,VHF,Scrubland and Grassland,Not,Temporate,1,0.000527479,0.325956998,0.339269567,0.035315985,0.077765498,0.175374259,0.018260826,0.024766402,0.002762986,0,0
+Harper 2004,New Zealand,New Zealand,Male,,100% MCP ,2083,457.3,4,VHF,Forest,Island,Subalpine,0,0,0.226188861,0,0,0.202750831,0.0122278,0.001678991,0.557153517,0,0,0
+Harper 2004,New Zealand,New Zealand,Female,,100% MCP ,1109,52.9,3,VHF,Forest,Island,Subalpine,0,0,0.226188861,0,0,0.202750831,0.0122278,0.001678991,0.557153517,0,0,0
+Burrows et al. 2003,Australia,Australia,Male,,100% MCP ,1350,150,2,VHF,Grassland,Not,Arid,1,0,0,0.004583652,0,0,0.924115101,0.071301248,0,0,0,0
+Burrows et al. 2003,Australia,Australia,Female,,100% MCP ,700,,1,VHF,Grassland,Not,Arid,1,0,0,0.004583652,0,0,0.924115101,0.071301248,0,0,0,0
+Biro et al. 2003,Hungrey,Europe,,,100% MCP ,172.7,,3,VHF,,Not,Continental,1,0,,,,,,,,,,
+Biro et al. 2003,Hungrey,Europe,Male,,100% MCP ,149,,1,VHF,,Not,Continental,1,0,,,,,,,,,,
+Biro et al. 2003,Hungrey,Europe,Female,,100% MCP ,185,143.5,2,VHF,,Not,Continental,1,0,,,,,,,,,,
+Edwards et al. 2001,Australia,Australia,Male,,100% MCP ,2210.5,469.3,4,VHF,Scrub,Not,Semi-arid,1,0,0,0,0,0.562466181,0.40191616,0.035617659,0,0,0,0
+Smucker et al. 2000,USA,North America,Male,,100% MCP ,278,88,3,VHF,Forest,Island,Subalpine,1,0,0.552608986,0.132086871,0,0.084835766,0.204585201,0,0,0,0.025883176,0
+Smucker et al. 2000,USA,North America,Female,,100% MCP ,169,90,2,VHF,Forest,Island,Subalpine,1,0,0.552608986,0.132086871,0,0.084835766,0.204585201,0,0,0,0.025883176,0
+Hall et al. 2000,USA,North America,Male,,95% MCP,35.3,,5,VHF,Crops,Not,Mediterranean,1,0.155312234,0.008866871,0.009308637,0.000631094,0,0,0,0,0,0,0.825881165
+Hall et al. 2000,USA,North America,Female,,95% MCP,26.8,,5,VHF,Crops,Not,Mediterranean,1,0.155312234,0.008866871,0.009308637,0.000631094,0,0,0,0,0,0,0.825881165
+Moller & Alterio 1999,New Zealand,New Zealand,,,100% MCP ,189,,10,VHF,Agricultural - sheep and cattle,Not,Maritine temporate,1,0.100194789,0.051862673,0.558558559,0.200633065,0.028487947,0.025809593,0,0.033235939,0.001217434,0,0
+Moller & Alterio 1999,New Zealand,New Zealand,Male,,100% MCP ,207,37.41848283,7,VHF,Agricultural - sheep and cattle,Not,Maritine temporate,1,0.100194789,0.051862673,0.558558559,0.200633065,0.028487947,0.025809593,0,0.033235939,0.001217434,0,0
+Moller & Alterio 1999,New Zealand,New Zealand,Female,,100% MCP ,148,36.37306696,3,VHF,Agricultural - sheep and cattle,Not,Maritine temporate,1,0.100194789,0.051862673,0.558558559,0.200633065,0.028487947,0.025809593,0,0.033235939,0.001217434,0,0
+Dowding 1998,New Zealand,New Zealand,,Winter,100% MCP ,47,,14,VHF,Agricultural - sheep and cattle,Island,Temporate,0,0.010989011,0.120879121,0.065934066,0,0,0.802197802,0,0,0,0,0
+Dowding 1998,New Zealand,New Zealand,Male,Winter,100% MCP ,47.5,8.3,7,VHF,Agricultural - sheep and cattle,Island,Temporate,0,0.010989011,0.120879121,0.065934066,0,0,0.802197802,0,0,0,0,0
+Dowding 1998,New Zealand,New Zealand,Female,Winter,100% MCP ,45.8,19.15,7,VHF,Agricultural - sheep and cattle,Island,Temporate,0,0.010989011,0.120879121,0.065934066,0,0,0.802197802,0,0,0,0,0
+Norbury et al. 1998,New Zealand,New Zealand,,,100% MCP ,225,209,22,VHF,Grassland,Not,Temporate,1,0.011008609,0.002324865,0.080245013,0.236520558,0.003683691,0.212571259,0.412499071,0.004734657,0.011932186,0,0.02448009
+Norbury et al. 1998,New Zealand,New Zealand,Male,,100% MCP ,189,218,9,VHF,Grassland,Not,Temporate,1,0.011008609,0.002324865,0.080245013,0.236520558,0.003683691,0.212571259,0.412499071,0.004734657,0.011932186,0,0.02448009
+Norbury et al. 1998,New Zealand,New Zealand,Female,,100% MCP ,249,208,13,VHF,Grassland,Not,Temporate,1,0.011008609,0.002324865,0.080245013,0.236520558,0.003683691,0.212571259,0.412499071,0.004734657,0.011932186,0,0.02448009
+Genovesi et al. 1995,Italy,Europe,,Summer,100% MCP ,230,86.1,7,VHF,Crops,Not,Temporate,1,0.517287361,0.008334127,0.03176493,0,0,0,0,0.004476617,0,0,0.438136965
+Genovesi et al. 1995,Italy,Europe,Male,Summer,100% MCP ,394,245,3,VHF,Crops,Not,Temporate,1,0.517287361,0.008334127,0.03176493,0,0,0,0,0.004476617,0,0,0.438136965
+Genovesi et al. 1995,Italy,Europe,Female,Summer,100% MCP ,147.5,42.3,4,VHF,Crops,Not,Temporate,1,0.517287361,0.008334127,0.03176493,0,0,0,0,0.004476617,0,0,0.438136965
+Mirmovitch 1995,Isreal,Other,Male,Winter,100% MCP ,0.56,0.09,14,Observation,Urban,Not,Mediterranean,1,0,,,,,,,,,,
+Mirmovitch 1995,Isreal,Other,Female,Winter,100% MCP ,0.3,0.11,11,Observation,Urban,Not,Mediterranean,1,0,,,,,,,,,,
+Mirmovitch 1995,Isreal,Other,Male,Winter,100% MCP ,0.75,0.09,16,Observation,Urban,Not,Mediterranean,1,0,,,,,,,,,,
+Mirmovitch 1995,Isreal,Other,Female,Winter,100% MCP ,0.27,0.11,10,Observation,Urban,Not,Mediterranean,1,0,,,,,,,,,,
+Yamane et al. 1994,Japan,Asia,Male,,100% MCP ,1.13,,84,Observation,Urban,Island,Temporate,0,0,,,,,,,,,,
+Yamane et al. 1994,Japan,Asia,Female,,100% MCP ,0.51,,43,Observation,Urban,Island,Temporate,0,0,,,,,,,,,,
+Yamane et al. 1994,Japan,Asia,Male,Winter,100% MCP ,0.78,0.09,44,Observation,Urban,Island,Temporate,0,0,,,,,,,,,,
+Yamane et al. 1994,Japan,Asia,Female,Winter,100% MCP ,0.44,0.33,23,Observation,Urban,Island,Temporate,0,0,,,,,,,,,,
+Yamane et al. 1994,Japan,Asia,Male,Summer,100% MCP ,1.45,0.13,40,Observation,Urban,Island,Temporate,0,0,,,,,,,,,,
+Yamane et al. 1994,Japan,Asia,Female,Summer,100% MCP ,0.61,0.53,20,Observation,Urban,Island,Temporate,0,0,,,,,,,,,,
+Langham & Porter 1991,New Zealand,New Zealand,Male,,100% MCP ,240,48.5,9,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Porter 1991,New Zealand,New Zealand,Female,,100% MCP ,154,78.1,4,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Porter 1991,New Zealand,New Zealand,Female,,100% MCP ,239,20,4,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Porter 1991,New Zealand,New Zealand,Female,,100% MCP ,86,15.65247584,5,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Charleston 1990,New Zealand,New Zealand,Male,,100% MCP ,287,6.96,6,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Charleston 1990,New Zealand,New Zealand,Female,,100% MCP ,124,29.16,7,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Charleston 1990,New Zealand,New Zealand,Female,,100% MCP ,239,20,4,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Langham & Charleston 1990,New Zealand,New Zealand,Female,,100% MCP ,76,13.41640786,5,VHF,Agricultural - sheep and cattle,Not,Temporate,1,0,,,,,,,,,,
+Konecny 1987,Galapagus Islands,Other,Male,,100% MCP ,149,73.1,4,VHF,Forest,Island,Desert,0,0,,,,,,,,,,
+Konecny 1987,Galapagus Islands,Other,Female,,100% MCP ,35,14,2,VHF,Forest,Island,Desert,0,0,,,,,,,,,,
+Konecny 1987,Galapagus Islands,Other,Male,,100% MCP ,497,115.78,6,VHF,Scrub,Island,Desert,0,0,,,,,,,,,,
+Konecny 1987,Galapagus Islands,Other,Female,,100% MCP ,130,80.5,2,VHF,Scrub,Island,Desert,0,0,,,,,,,,,,
+Apps 1986,South Africa,Other,Male,,100% MCP ,44,,5,VHF,Scrub,Island,Mediterranean,0,0.013043478,0,0,0,0.134782609,0,0,0.852173913,0,0,0
+Apps 1986,South Africa,Other,Female,,100% MCP ,19,,3,VHF,Scrub,Island,Mediterranean,0,0.013043478,0,0,0,0.134782609,0,0,0.852173913,0,0,0
+Jones & Coman 1982,Australia,Australia,Male,,100% MCP ,620,190.9188309,4,VHF,Grassland,Not,Semi-arid,1,0,,,,,,,,,,
+Jones & Coman 1982,Australia,Australia,Female,,100% MCP ,170,98.99494937,2,VHF,Grassland,Not,Semi-arid,1,0,,,,,,,,,,
+Schwartz 1995,Australia,Australia,Male,,100% MCP ,153.75,21.75,2,VHF,Forest,Not,Temporate,1,0.100208958,0.36513128,0.325429272,0.175252112,0,0.014081948,0.009539384,0.0070864,0,0,0.003270646
+Schwartz 1995,Australia,Australia,Female,,100% MCP ,28.5,,1,VHF,Forest,Not,Temporate,1,0.100208958,0.36513128,0.325429272,0.175252112,0,0.014081948,0.009539384,0.0070864,0,0,0.003270646
+Watson 2006,Australia,Australia,Male,,100% MCP ,628,110.9,2,VHF,Scrub,Not,Alpine,1,0.002649914,0.267824101,0.000662479,0,0.265882353,0.461267847,0.001713307,0,0,0,0
+Watson 2006,Australia,Australia,Female,,100% MCP ,409.8,,1,VHF,Scrub,Not,Alpine,1,0.002649914,0.267824101,0.000662479,0,0.265882353,0.461267847,0.001713307,0,0,0,0
+Watson 2006,Australia,Australia,Male,Winter,100% MCP ,302.15,13.75,2,VHF,Scrub,Not,Alpine,1,0.002649914,0.267824101,0.000662479,0,0.265882353,0.461267847,0.001713307,0,0,0,0
+Watson 2006,Australia,Australia,Female,Winter,100% MCP ,389.4,,1,VHF,Scrub,Not,Alpine,1,0.002649914,0.267824101,0.000662479,0,0.265882353,0.461267847,0.001713307,0,0,0,0
